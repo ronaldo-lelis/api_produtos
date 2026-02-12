@@ -57,18 +57,18 @@ A API possui documentação automática gerada pelo Springdoc OpenAPI:
 
 ## ❓ Principais Dúvidas durante o curso:
 
-# O que significa essa linha e o que ela faz?
+## O que significa essa linha e o que ela faz?
 - private static final long serialVersionUID = 1L;
 - Principalmente esse 1L, o que é isso?;
 
-# Por que a tipagem: long não é com L maiúsculo? igual as demais.
+## Por que a tipagem: long não é com L maiúsculo? igual as demais.
 - Datetime data; String nome; ---> long id;
 
-# O pacote resources é a mesma coisa que um pacote controller, certo?
+## O pacote resources é a mesma coisa que um pacote controller, certo?
 - Outros vídeos que assisti ele é sempre nomeado como controller;
 - Não existe então um padrão na comunidade?;
 
-# Por que teve que criar manualmente o método findById?
+## Por que teve que criar manualmente o método findById?
 - Antes da gente criar manualmente o método findById no Repository
  ao digitar o produtoRepository e colocar o . --> ele exibe já um método do próprio Jpa;
 - Não era possível usar esse método?;
