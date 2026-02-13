@@ -9,4 +9,12 @@ public interface ProdutoRepository extends JpaRepository<Produto, Long> {
 	
 	Produto findById(long id);
 
+	Produto findByNomeAndValor(String nome, BigDecimal valor);
+
+	public Produto pesquisarPorNome(String nome){
+		Map<String, Object> params = new HashMap<>();
+		params.put("nome", nome);
+		return find("nome = :nome and valor = ?", params);
+	}
+
 }
